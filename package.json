@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/hackdanismo/stackit/issues"
   },
-  "homepage": "https://github.com/hackdanismo/stackit#readme"
+  "homepage": "https://github.com/hackdanismo/stackit#readme",
+  "dependencies": {
+    "@inquirer/prompts": "^8.7.3",
+    "commander": "^15.0.0"
+  }
 }
