@@ -1,10 +1,10 @@
 {
   "name": "stackit",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "bin": {
-    "next-setup": "./bin/cli.js"
+    "stackit": "./bin/cli.js"
   },
   "scripts": {
     "stackit": "node bin/cli.js"
