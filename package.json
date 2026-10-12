@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "next-setup": "./bin/cli.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "stackit": "node bin/cli.js"
+  },
+  "engines": {
+    "node": ">=20.9.0"
   },
   "repository": {
     "type": "git",
@@ -12,8 +18,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "license": "MIT",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/hackdanismo/stackit/issues"
   },
